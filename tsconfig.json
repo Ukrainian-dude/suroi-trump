@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "./client/tsconfig.node.json",
+    "./common/tsconfig.json",
+    "./server/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@common/*": ["./common/src/*"]
+    }
+  }
+}
